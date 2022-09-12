@@ -6,11 +6,12 @@
  */
 int main(void)
 	{
-		int a, b;
+		int a;
+		int b;
 
 		for (a = 0; a < 100; a++)
 		{
-			if (b < a)
+			if (a > b)
 			{
 				putchar((a / 10) + '0');
 				putchar((a % 10) + '0');
