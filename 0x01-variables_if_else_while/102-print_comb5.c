@@ -6,7 +6,7 @@
  *
  * Return:return 0
  */
-int main()
+int main(void)
 	{
 		int num1, num2;
 
