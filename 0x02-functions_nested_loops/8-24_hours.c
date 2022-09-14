@@ -3,7 +3,7 @@
  * jack_bauer-prints every minutes of a day
  *
  */
-void jack_bauer(void);
+void jack_bauer(void)
 	{
 		int h;
 		int m;
@@ -15,7 +15,7 @@ void jack_bauer(void);
 				_putchar((h / 10) + '0');
 				_putchar((h % 10) + '0');
 
-				_putchar(' : ');
+				_putchar(':');
 				_putchar((m / 10) + '0');
 				_putchar((m % 10) + '0');
 
