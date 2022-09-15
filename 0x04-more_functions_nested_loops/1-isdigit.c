@@ -3,4 +3,8 @@
  * _isdigit-function that checks for a digit 0 to 9
  * @c: tested character
  * Return: 1 if it is, 0 otherwise
- *
+ */
+int _isdigit(int c)
+	{
+		return (c >= '0' && c <= '9');
+	}
