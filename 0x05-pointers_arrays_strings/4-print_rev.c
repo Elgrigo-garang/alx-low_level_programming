@@ -4,8 +4,8 @@
 
 /**
  * print_rev-function that prints string in reverse
- * @s:string to reverse
- * Return :return nothing
+ * @s: string to reverse
+ * Return: nothing
  */
 void print_rev(char *s)
 	{
@@ -13,5 +13,5 @@ void print_rev(char *s)
 
 		while (len--)
 			putchar(*(s + len));
-		putchar(0);
+		putchar(10);
 	}
