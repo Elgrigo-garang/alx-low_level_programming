@@ -4,8 +4,8 @@
 /**
  *print_array-prints elements of an array of an enteger
  *@a: array
- *@n:number of elements
- *Return: nothing
+ *@n: number of elements of the array
+ *Return: void
  */
 void print_array(int *a, int n)
 	{
@@ -13,10 +13,12 @@ void print_array(int *a, int n)
 
 		for (inc = 0; inc < n; inc++)
 		{
-			if (inc != n - 1)
-				printf("%d, ", a[x]);
-			else
-				printf("%d, ", a[x]);
+			printf("%d", a[inc]);
+
+			if (inc != (n - 1)
+					{
+					printf(",");
+					}
 		}
-		putchar(10);
+		printf("\n");
 	}
