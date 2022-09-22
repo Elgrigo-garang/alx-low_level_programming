@@ -2,7 +2,7 @@
 /**
  * _strlen- returns the length of a string
  * @s :string
- * Return:return length of an integer
+ * Return:return length as integer
  */
 int _strlen(char *s)
 	{
@@ -14,9 +14,9 @@ int _strlen(char *s)
 		return (len);
 	}
 /**
- * * *cap_string-changes all lowercase letters of a string to uppercase
+ * cap_string-changes all lowercase letters of a string to uppercase
  * @str : string
- * Return: 0
+ * Return: return capitalized string
  *
  */
 char *cap_string(char *str)
