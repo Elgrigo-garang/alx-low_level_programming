@@ -1,5 +1,19 @@
 #include "main.h"
 /**
+ * _strlen- returns the length of a string
+ * @s :string
+ * Return:return length of an integer
+ */
+int _strlen(char *s)
+	{
+		int len = 0;
+
+		while (*(s + len) != '\0')
+			len++;
+
+		return (len);
+	}
+/**
  * * *cap_string-changes all lowercase letters of a string to uppercase
  * @str : string
  * Return: 0
