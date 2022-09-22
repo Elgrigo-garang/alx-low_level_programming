@@ -2,22 +2,22 @@
 
 /**
  * _strcat-concentrates two strings
- * @dest: first parameter
- * @src: second parameter
- * Return: character
+ * @dest: destination string
+ * @src: source string
+ * Return: a pointer to the resulting string dest
  */
 char *_strcat(char *dest, char *src)
 	{
 		int len = 0, dest_len = 0;
 
-		while (dest[len++])
+		while (dest[len])
 		{
-			dest_len++;
+			len++;
 		}
 
-		for (len = 0; src[index]; len++)
+		for (dest_len = 0; src[dest_len]; dest_len++)
 		{
-			dest[dest_len++] = src[index];
+			dest[len] = src[dest_len];
 			len++;
 		}
 
