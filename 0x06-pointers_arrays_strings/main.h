@@ -11,6 +11,6 @@ char *string_toupper(char *);
 char *cap_string(char *str);
 int _strlen(char *s);
 void print_number(int n);
-
+int main(void);
 
 #endif
