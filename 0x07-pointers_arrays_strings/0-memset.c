@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _memset-this is a memory set function
+ * _memset-memory set function
  * @s:string
- * @b:character to be used
- * @n:number to be used
+ * @b:a character
+ * @n:an integer
  *
  * Return:string
  */
