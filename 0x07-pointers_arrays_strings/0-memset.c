@@ -1,18 +1,17 @@
 #include "main.h"
+#include <stdlib.h>
 /**
- * _memset-memory set function
- * @s:string
- * @b:a character
- * @n:an integer
+ * malloc_checked - Allocates memory using malloc
+ * @b: The number of bytes to be allocated
  *
- * Return:string
+ * Return: A pointer to the allocated memory
  */
-char *_memset(char *s, char b, unsigned int n)
+void *malloc_checked(unsigned int b)
 	{
-		unsigned int a;
+		void *mem = malloc(b);
 
-		for (a = 0; a < n; a++)
-			s[a] = b;
+		if (mem == NULL)
+			exit(98);
 
-		return (s);
+		return (mem);
 	}
