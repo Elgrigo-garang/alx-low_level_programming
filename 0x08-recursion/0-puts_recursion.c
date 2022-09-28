@@ -5,13 +5,14 @@
  * Return:always 0 (success)
  */
 void _puts_recursion(char *s)
-{
-	int  i = 0;
-
-	while (s[i] != '\n' && s[i] != '\0')
 	{
-		_putchar(s[i]);
-		i++;
+		if (*s == '\0')
+		{
+			_putchar('\0');
+		}
+		else
+		{
+			_putchar(s[0]);
+			_puts_recursions(s + 1);
+		}
 	}
-	_putchar('\n')
-}
