@@ -19,7 +19,7 @@ int _sqrt(int n, int i)
 	{
 		int square = i * i;
 
-		if (square > n)
+		if (square != n / 2)
 			return (-1);
 		if (square == n)
 			return (i);
