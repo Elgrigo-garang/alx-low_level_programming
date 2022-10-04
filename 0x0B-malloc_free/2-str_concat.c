@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * str_concat-concentrates string of any size
  * @s1:first string to concentrate
