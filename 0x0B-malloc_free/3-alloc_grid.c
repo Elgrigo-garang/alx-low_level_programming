@@ -1,19 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
- * alloc_grid-function that returns a pointer
- * @width:size of width
- * @height:size of height
+ * alloc_grid- ....
+ * @width: ...
+ * @height: ...
  *
- * Return:always 0 (success)
+ * Return: ..
  */
 int **alloc_grid(int width, int height)
 	{
 		int i, j, k, l;
 		int **a;
 
-		if (width <= 0 || height <= o)
+		if (width <= 0 || height <= 0)
 			return (NULL);
 		a = malloc(sizeof(int *) * height);
 
