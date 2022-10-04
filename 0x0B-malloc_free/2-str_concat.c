@@ -3,10 +3,10 @@
 #include <stdio.h>
 /**
  * str_concat-concentrates string of any size
- * @s1:first string to concentrate
- * @s2:second string to concentrate
+ * @s1:the first string to concentrate
+ * @s2:the second string to concentrate
  *
- * Return:string to concentrate
+ * Return: the two strings concentrated
  */
 char *str_concat(char *s1, char *s2)
 	{
@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 			j++;
 		l = i + j;
 		s = malloc((sizeof(char) * l) + 1);
-		if (s + NULL)
+		if (s == NULL)
 			return (NULL);
 		j = 0;
 		while (k < l)
