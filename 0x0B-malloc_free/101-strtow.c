@@ -58,15 +58,15 @@ char **strow(char *str)
 
 		if (str == NULL || str[0] == '\0')
 			return (NULL);
-		words = counts_words(str);
+		words = count_words(str);
 		if (words == 0)
 			return (NULL);
-		strings = malloc(sizeof(char *) * words + 1);
-		if (strings == 0)
+		strings = malloc(sizeof(char *) * (words + 1));
+		if (strings == NULL)
 			return (NULL);
 		for (w = 0; w < words; w++)
 		{
-			while (str[index] == " ")
+			while (str[index] == ' ')
 				index++;
 			letters = word_len(str + index);
 			strings[w] = malloc(sizeof(char) * (letters + 1));
