@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * main-multiplies two posiive numbers
- * @argc:n arguments
- * @argv:args
- * Return:int
+ * @argc: n arguments
+ * @argv: args
+ * Return: int
  */
 int main(int argc, char *argv[])
 	{
