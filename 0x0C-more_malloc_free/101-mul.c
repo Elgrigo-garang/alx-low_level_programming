@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 	{
-		unsigned long mull;
+		unsigned long mul;
 		int i, j;
 
 		if (argc != 3)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 				}
 			}
 		}
-		mull = atol(argv[1]) * atol(argv[2]);
-		printf("%lu\n", mull);
+		mul = atol(argv[1]) * atol(argv[2]);
+		printf("%lu\n", mul);
 		return (0);
 	}
