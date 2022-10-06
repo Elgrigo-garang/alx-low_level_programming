@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main-multiplies two posiive numbers
  * @argc:n arguments
@@ -19,14 +21,14 @@ int main(int argc, char *argv[])
 		{
 			for (j = 0; argv[i][j] != '\0'; j++)
 			{
-				if (argv[i][j] > 57 || agrv[i][j] < 48)
+				if (argv[i][j] > 57 || argv[i][j] < 48)
 				{
 					printf("Error\n");
 					exit(98);
 				}
 			}
 		}
-		mul = atol(argv[1] * atol(argv[2]));
+		mull = atol(argv[1]) * atol(argv[2]);
 		printf("%lu\n", mull);
 		return (0);
 	}
