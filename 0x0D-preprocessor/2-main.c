@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
- *main- prints the name of the file program was compleid from
+ *main- prints the name of the file
  *
- *Return: Always 0
+ *Return: 0
  */
 int main(void)
 	{
