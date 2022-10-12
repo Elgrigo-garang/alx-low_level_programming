@@ -20,6 +20,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		len0 = 0;
 		while (owner[len0] != '\0')
 			len0++;
+
 		n_dog = malloc(sizeof(struct dog));
 		if (n_dog == NULL)
 		{
@@ -43,6 +44,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		}
 		for (i = 0; i <= lenN; i++)
 			n_dog->owner[i] = owner[i];
+		for (i = 0; i <= len0; i++)
 		n_dog->age = age;
 		return (n_dog);
 	}
