@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_listint-prints all the elements in the link lists
+ * print_listint - prints all the elements in the link lists.
  * @h:head of the elements
  *
  * Return:the number of nodes
