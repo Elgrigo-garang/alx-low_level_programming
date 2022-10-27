@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * add_nodeint - adds new node at the begging
  * of a listint_t list
